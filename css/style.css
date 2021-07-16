@@ -18,17 +18,36 @@
     padding: 0;
 }
 
-.aside-wrap section {
+.aside-wrap div {
     padding: 50px;
     height: 200px;
     width: 200px;
     background-color: #f6f6f6;
 }
 
-.aside-wrap section img {
+.aside-wrap div img {
     height: 100%;
 }
 
-.aside-wrap section:nth-child(even) {
+.aside-wrap div:nth-child(even) {
     background-color: #e6e6e6;
+}
+
+.form {
+    background-color: #6b6ace;
+}
+
+.underline {
+    height: 5px;
+    width: 50px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+@media (max-width: 480px) {
+    .aside-wrap div {
+        padding: 20px;
+        height: 120px;
+        width: 120px;
+    }
 }
