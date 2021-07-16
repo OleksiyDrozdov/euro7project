@@ -44,6 +44,23 @@
     background-color: #ffffff;
 }
 
+.footer {
+    min-height: 200px;
+    background-color: #f0f0f0;
+}
+
+.footer .txt {
+    font-size: 13px;
+}
+
+.footer .logo {
+    height: 60px;
+}
+
+.icon img{
+    height: 40px;
+}
+
 @media (max-width: 480px) {
     .aside-wrap div {
         padding: 20px;
